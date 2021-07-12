@@ -1,0 +1,210 @@
+nav {
+  position: absolute;
+  top: 40px;
+  right: 150px;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  margin: 0 0 0 40px;
+}
+
+header a:hover {
+  color: #6d403e;
+  font-weight: bold;
+  border-bottom: 2px solid #6d403e;
+  padding-bottom: 2px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.hero-image {
+  height: 100vh;
+  background: url('./../images/hero.jpg') top center / cover no-repeat;
+}
+
+.cafe-features {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+
+.cafe-feature {
+  width: 480px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 30px;
+}
+
+.cafe-feature-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cafe-feature-text {
+  padding: 40px 46px;
+}
+
+.cafe-feature-detail {
+  line-height: 2;
+  font-size: 14px;
+}
+
+.cafe-description {
+  width: 760px;
+  margin: 100px auto;
+}
+
+.cafe-description img {
+  display: block;
+  margin: 0 auto 60px;
+}
+
+.cafe-description h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.cafe-description p {
+  line-height: 2;
+  font-size: 14px;
+  padding: 0 120px 40px;
+}
+
+.cafe-menu {
+  display: flex;
+}
+
+.cafe-menu-image {
+  width: 50%;
+}
+
+.cafe-menu-wrapper {
+  width: 50%;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cafe-menu-description p {
+  line-height: 2;
+  text-align: center;
+}
+
+.cafe-menu-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cafe-menu-table {
+  margin: 20px auto 0;
+  line-height: 2;
+}
+
+.cafe-menu-price {
+  padding-left: 40px;
+}
+
+.cafe-access {
+  margin-top: 100px;
+}
+
+.cafe-access-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cafe-access-inner {
+  display: flex;
+}
+
+.cafe-access-info {
+  width: 50%;
+}
+
+.cafe-access-map {
+  width: 50%;
+}
+
+.cafe-access-info-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cafe-access-info-detail {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.sns-logo {
+  margin: 200px auto;
+  width: 360px;
+}
+
+.sns-logo img {
+  margin-right: 50px;
+}
+
+.sns-logo-last-image {
+  margin-right: 0 !important;
+}
+
+footer {
+  height: 100px;
+  background-color: #6d403e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+#page_top {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #ef3f98;
+  opacity: 0.6;
+}
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f106';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
