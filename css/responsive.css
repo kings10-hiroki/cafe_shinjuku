@@ -1,8 +1,10 @@
-/* 1050以下 */
-/*
-1列
+@media screen and (max-width: 1050px) {
+  /*　画面サイズが1050px以下の場合ここの記述が適用される　*/
+  .drawer-header {
+    display: block;
+  }
 
-
-
-
-*/
+  #top nav {
+    display: none;
+  }
+}
