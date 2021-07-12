@@ -1,10 +1,33 @@
 @media screen and (max-width: 1050px) {
   /*　画面サイズが1050px以下の場合ここの記述が適用される　*/
+  /* ドロワー */
   .drawer-header {
     display: block;
   }
 
   #top nav {
     display: none;
+  }
+
+  /* コンテンツ1列 */
+  .cafe-features,
+  .cafe-menu,
+  .cafe-access-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cafe-feature {
+    margin: 30px 30px;
+  }
+
+  .cafe-menu-order,
+  .cafe-access-info {
+    order: 1;
+  }
+
+  .cafe-menu-description,
+  .cafe-access-info {
+    padding: 20px;
   }
 }
