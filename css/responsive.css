@@ -1,10 +1,63 @@
 @media screen and (max-width: 1050px) {
   /*　画面サイズが1050px以下の場合ここの記述が適用される　*/
+  .hero-image {
+    height: 80vh;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .cafe-feature {
+    margin: 30px;
+  }
+
+  .cafe-description {
+    width: 70%;
+  }
+
+  .cafe-description p {
+    padding: 0 30px 30px;
+  }
+
   .drawer-header {
     display: block;
   }
 
+  .cafe-menu {
+    align-items: center;
+  }
+
+  .cafe-menu-image,
+  .cafe-menu-wrapper,
+  .cafe-access-info,
+  .cafe-access-map {
+    width: 80%;
+  }
+
+  .cafe-access-map {
+    height: 350px;
+  }
+
+  .cafe-menu-description {
+    padding: 30px 0;
+  }
+
+  .cafe-access-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   #top nav {
     display: none;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .reverse {
+    flex-direction: column-reverse;
   }
 }

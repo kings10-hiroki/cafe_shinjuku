@@ -28,18 +28,29 @@ header a:hover {
 .hero-image {
   height: 100vh;
   background: url('./../images/hero.jpg') top center / cover no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .cafe-features {
   display: flex;
   justify-content: center;
   margin: 60px 0;
+  flex-wrap: wrap;
 }
 
+/**
+ * TODO:
+ * -
+ */
 .cafe-feature {
   width: 480px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   margin: 0 30px;
+}
+
+.cafe-feature img {
+  width: 100%;
 }
 
 .cafe-feature-title {
@@ -89,6 +100,10 @@ header a:hover {
   width: 50%;
 }
 
+.cafe-menu-image img {
+  width: 100%;
+}
+
 .cafe-menu-wrapper {
   width: 50%;
   background-color: #fafafa;
@@ -100,6 +115,11 @@ header a:hover {
 .cafe-menu-description p {
   line-height: 2;
   text-align: center;
+  font-size: 14px;
+}
+
+.cafe-menu-description td {
+  font-size: 14px;
 }
 
 .cafe-menu-title {
