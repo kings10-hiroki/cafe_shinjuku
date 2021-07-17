@@ -49,6 +49,14 @@
     align-items: center;
   }
 
+  .sns-logo {
+    width: 252px;
+  }
+
+  .sns-logo img {
+    width: 60px;
+  }
+
   #top nav {
     display: none;
   }
